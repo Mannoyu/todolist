@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/123/.claude/plugins/cache/superpowers-dev/superpowers/5.1.0/skills/subagent-driven-development/**)",
+      "Bash(npm create *)",
+      "Bash(cd \"c:/Users/123/Desktop/vibe codingweb/vibe\" && cat /dev/null && npm install -D tailwindcss@latest @tailwindcss/vite@latest 2>&1)",
+      "Read(//dev/**)",
+      "Bash(timeout 10 npm run dev)",
+      "Bash(rm -f src/App.css)",
+      "Bash(rm -rf src/assets)",
+      "Bash(rm -f public/favicon.svg public/icons.svg)",
+      "Bash(npx tsc *)"
+    ]
+  }
+}
